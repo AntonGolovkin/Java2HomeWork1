@@ -20,7 +20,9 @@ public class MainApp {
                  new Human("Филипп", 70, 5),
                  new Robot("t1000", 500, 80)
          };
-         
+        for (Jump j : jumps){
+            wall.jump(j);
+        }
 
 
 
